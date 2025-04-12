@@ -25,7 +25,7 @@ A real-time sports scoreboard built with **Laravel 12**, designed to display liv
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/realtime-sports-scoreboard.git
+git clone https://github.com/Mausumi134/sport-scoreboard.git
 cd realtime-sports-scoreboard
 ```
 
