@@ -7,7 +7,7 @@
      data-league="{{ $league ?? '' }}"
      data-season="{{ $season ?? '' }}"
      data-theme="{{ $theme ?? '' }}"
-     data-refresh="{{ $refresh ?? '60' }}"
+     data-refresh="{{ $refresh ?? '15' }}"
      data-show-toolbar="{{ $showToolbar ?? 'true' }}"
      data-show-errors="{{ $showErrors ?? 'false' }}"
      data-show-logos="{{ $showLogos ?? 'true' }}"
