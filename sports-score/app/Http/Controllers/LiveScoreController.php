@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class LiveScoreController extends Controller
 {
-    // Existing getFootballScores method
+    
 
     public function getFootballLeagues(Request $request)
     {
@@ -22,11 +22,10 @@ class LiveScoreController extends Controller
 
             $data = $response->json();
 
-            // Check if the API response contains the 'response' key
             if (isset($data['response'])) {
                 $leagues = $data['response'];
             } else {
-                $leagues = []; // Handle the case where 'response' key is missing
+                $leagues = []; 
             }
 
             return view('leagues', ['leagues' => $leagues]);

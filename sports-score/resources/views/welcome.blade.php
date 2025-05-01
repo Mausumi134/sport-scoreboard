@@ -10,7 +10,7 @@
     <h1>API-Sports Games Widget</h1>
 
     @include('widgets.games', [
-        'league' => 39, // Example: Premier League
+        'league' => 39, 
         'season' => 2024,
         'theme' => 'dark'
     ])
