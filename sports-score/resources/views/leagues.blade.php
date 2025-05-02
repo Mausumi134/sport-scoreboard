@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ff9933; /* Orange background */
+            background-color: #ff9933; 
             color: #333;
             display: flex;
             flex-direction: column;
